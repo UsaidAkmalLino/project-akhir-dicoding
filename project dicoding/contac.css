@@ -1,0 +1,171 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-image: url('img/bgcontac.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+
+/* NAVBAR */
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.fCountainer {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+    background-color: #6499E9;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0, 5);
+
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Young Serif', serif;
+}
+
+.firstname {
+    font-weight: 1000;
+    color: azure;
+    font-size: 25px;
+    padding-right: 6px;
+
+}
+
+.lastname {
+    color: #F9F54B;
+    padding-left: 4px;
+    font-weight: 1000;
+    font-variant: small-caps;
+    font-size: x-large;
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navigation>li {
+    list-style-type: none;
+    padding: 16px;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+.navigation>li>a {
+    color: #F9F9F9;
+    font-variant: small-caps;
+    font-size: 35px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigation>li>img {
+    width: 60px;
+    height: 60px;
+    border-radius: 80px;
+    padding: 50px;
+}
+
+.navigation>li>img:hover {
+    width: 65px;
+    height: 65px;
+    border-radius: 85px;
+    padding: 55px;
+    transition: all .3s ease-in-out;
+}
+
+.navigation>li>a:hover {
+    color: #FEFF86;
+    font-variant: small-caps;
+    font-size: 35px;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-shadow: 0 7px 15px 0 rgb(0, 0, 0);
+    transition: all .3s ease-in-out;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+/* CONTAINER */
+
+.captionins {
+    font-size: 25px;
+    font-family: 'Young Serif', serif;
+    color: rgb(244, 244, 244);
+    transition: all .3s ease-in-out;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+.captionins:hover {
+    font-size: 32px;
+    font-family: 'Young Serif', serif;
+    color: rgb(9, 214, 214);
+    font-variant: small-caps;
+    text-shadow: 5px 5px 10px black;
+    text-transform: capitalize;
+
+}
+
+.captiongit {
+    font-size: 25px;
+    font-family: 'Young Serif', serif;
+    color: rgb(244, 244, 244);
+    transition: all .3s ease-in-out;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+.captiongit:hover {
+    font-size: 32px;
+    font-family: 'Young Serif', serif;
+    color: rgb(9, 214, 214);
+    font-variant: small-caps;
+    text-shadow: 5px 5px 10px black;
+    text-transform: capitalize;
+
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #6499E9;
+    color: white;
+    padding: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    font-family: 'Fugaz One', cursive;
+}
+
+.bio {
+    color: #F9F54B;
+}
